@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Álgebra Superior y Geometría Analítica · Práctica con IA</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script>
+  // URL de tu función serverless del tutor IA (ver README, api/tutor.js). Vacío = tutor desactivado.
+  window.TUTOR_ENDPOINT = '';
+</script>
+</head>
+<body>
+<header class="top">
+  <button id="menuBtn" class="icon-btn" aria-label="Abrir menú">☰</button>
+  <a class="brand" href="https://fi.uaemex.mx/portal/docs/coordinaciones/IIA/planIIA_2024/01/ALGEBRA_SUPERIOR_Y_GEOMETRIA_ANALITICA.pdf"><img class="logo-img" src="Img/Logo_UAEMex.svg" alt="Logo UAEM" height="38"><span>Álgebra Superior <small>y Geometría Analítica · UAEM · Ing. IA</small></span></a>
+  <div id="stats" class="stats"></div>
+</header>
+<div class="layout">
+  <nav id="nav" aria-label="Temario"></nav>
+  <main id="main"></main>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<script src="js/grader.js"></script>
+<script src="js/content.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
